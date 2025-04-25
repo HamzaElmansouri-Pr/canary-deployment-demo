@@ -1,0 +1,32 @@
+{
+  "name": "canary-deployment-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+     "start": "node app/index.js",
+  "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HamzaElmansouri-Pr/canary-deployment-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/HamzaElmansouri-Pr/canary-deployment-demo/issues"
+  },
+  "homepage": "https://github.com/HamzaElmansouri-Pr/canary-deployment-demo#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.1.0"
+  }
+}
